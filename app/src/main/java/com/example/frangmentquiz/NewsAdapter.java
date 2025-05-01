@@ -59,7 +59,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
         }
 
         public void bind(News dato) {
-            txt_titular.setText(dato.getAutor());
+            txt_titular.setText(dato.getTitular());
             txt_subtitulo.setText(dato.getSubtitulo());
             txt_fechaCiudad.setText(dato.getFechaHora() + ". " + dato.getCiudad());
             txt_autor.setText(dato.getAutor());
